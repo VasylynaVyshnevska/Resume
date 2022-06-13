@@ -13,7 +13,7 @@ body {
 }
 /* Main content section */
 .main-content-section {
-  padding: 100px 90px;
+  padding: 60px 90px;
 }
 .main-content-title {
   font-style: normal;
@@ -198,7 +198,8 @@ body {
 
 .contacts-section,
 .tech-skills-section,
-.soft-skills-section {
+.soft-skills-section,
+.language-section {
   margin: 50px 0 0 40px;
 }
 .sidebar-title {
@@ -253,3 +254,16 @@ body {
   line-height: 24px;
   color: #fff;
 }
+/* Language section */
+.language-list {
+  padding: 0 0 0 20px;
+}
+.language-item {
+  color: #fb6d3a;
+}
+.language-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
