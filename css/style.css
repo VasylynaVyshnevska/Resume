@@ -107,21 +107,19 @@ body {
 .my-work-experience-divider {
   color: #000;
 }
-.my-work-experience-duties {
+.my-work-experience-duties, 
+.my-new-skills-description
+{
   padding: 0 0 0 18px;
 }
-.my-work-experience-duty {
+
+.my-work-experience-duty, 
+.my-new-skills {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-}
-.my-work-experience-company-block-one {
-  margin-bottom: 15px;
-}
-.my-work-experience-company-block-second {
-  margin-bottom: 20px;
 }
 .my-work-experience-company-block-third {
   margin-bottom: 40px;
