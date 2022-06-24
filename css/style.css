@@ -61,6 +61,7 @@ body {
 .my-projects-item {
   color: #000;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 .my-projects-text {
   font-style: normal;
@@ -223,6 +224,13 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.contacts-linkedin {
+  color: #ffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px; 
 }
 /* Tech skills section */
 .tech-skills-list {
