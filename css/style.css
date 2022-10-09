@@ -13,7 +13,7 @@ body {
 }
 /* Main content section */
 .main-content-section {
-  padding: 60px 90px;
+  padding: 40px 90px;
 }
 .main-content-title {
   font-style: normal;
@@ -25,15 +25,7 @@ body {
 }
 /* About me section */
 .about-me-section {
-  margin: 0 0 40px 0;
-}
-.about-me-profession {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 17px;
-  color: #000;
-  margin-bottom: 20px;
+  margin: 0 0 30px 0;
 }
 .my-name {
   font-style: normal;
@@ -43,8 +35,16 @@ body {
   color: #000;
   margin-bottom: 25px;
 }
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 17px;
+  color: #000;
+  margin-bottom: 20px;
+}
 .about-me-description {
-  width: 550px;
+  width: 655px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -53,7 +53,7 @@ body {
 }
 /* My projects section */
 .my-projects-section {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .my-projects-list {
   padding: 0 0 0 17px;
@@ -85,6 +85,40 @@ body {
   line-height: 24px;
   color: #000000;
 }
+/* My courses section */
+.my-course-second-company, .my-course-first-company {
+  color: #fb6d3a;
+}
+.my-second-course, .my-first-course {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.my-second-course-period, .my-first-course-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.my-second-course-divider, .my-first-course-divider {
+  color: #000;
+}
+.my-second-course-knowledge, .my-first-course-knowledge 
+{
+  padding: 0 0 0 18px;
+}
+.my-second-course-first-knowledge, .my-second-course-second-knowledge, .my-second-course-third-knowledge, .my-first-course-first-knowledge, .my-first-course-second-knowledge, .my-first-course-third-knowledge 
+{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
 
 /* My work experience */
 .my-work-experience-company {
@@ -108,39 +142,19 @@ body {
 .my-work-experience-divider {
   color: #000;
 }
-.my-work-experience-duties, 
-.my-new-skills-description
-{
+.my-work-experience-duties {
   padding: 0 0 0 18px;
 }
 
-.my-work-experience-duty, 
-.my-new-skills {
+.my-work-experience-duty {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
-.my-work-experience-company-block-third {
-  margin-bottom: 40px;
-}
+
 /* My education-section */
-.my-it-course {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fb6d3a;
-  margin-bottom: 10px;
-}
-.my-it-course-period {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-}
 .my-university-name {
   font-style: normal;
   font-weight: bold;
@@ -192,9 +206,8 @@ body {
 .sidebar-section {
   background-color: #1e2939;
   width: 370px;
-  padding: 40px 0;
+  padding: 20px 0;
 }
-
 .contacts-section,
 .tech-skills-section,
 .soft-skills-section,
@@ -218,13 +231,13 @@ body {
   line-height: 24px;
 }
 /* Tech skills section */
-.tech-skills-list {
+.tech-skills-list, .my-new-skills-description {
   padding: 0 0 0 17px;
 }
-.tech-skills-item {
+.tech-skills-item, .my-new-skills {
   color: #fb6d3a;
 }
-.tech-skills-item-text {
+.tech-skills-item-text, .my-skills-text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
