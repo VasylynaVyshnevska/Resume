@@ -8,12 +8,12 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   background-color: #fff;
-  margin: 10px auto;
+  margin: 20px auto;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
 }
 /* Main content section */
 .main-content-section {
-  padding: 10px 90px;
+  padding: 20px 90px;
 }
 .main-content-title {
   font-style: normal;
@@ -211,12 +211,12 @@ body {
 .tech-skills-section,
 .soft-skills-section,
 .language-section {
-  margin: 50px 0 0 35px;
+  margin: 20px 0 0 35px;
 }
 .sidebar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
   color: #fff;
   margin-bottom: 10px;
