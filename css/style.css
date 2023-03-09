@@ -8,32 +8,32 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   background-color: #fff;
-  margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
 }
 /* Main content section */
 .main-content-section {
-  padding: 40px 90px;
+  padding: 10px 90px;
 }
 .main-content-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 17px;
   line-height: 27px;
   color: #000;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 /* About me section */
 .about-me-section {
-  margin: 0 0 30px 0;
+  margin: 0 0 5px 0;
 }
 .my-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 55px;
   color: #000;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 .about-me-profession {
   font-style: normal;
@@ -41,7 +41,7 @@ body {
   font-size: 17px;
   line-height: 17px;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .about-me-description {
   width: 655px;
@@ -53,15 +53,16 @@ body {
 }
 /* My projects section */
 .my-projects-section {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 .my-projects-list {
   padding: 0 0 0 17px;
+  margin: 5px 0 5px 0;
 }
 .my-projects-item {
   color: #000;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin: 0 0 5px 0;
 }
 .my-projects-text {
   font-style: normal;
@@ -94,7 +95,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 10px 0;
+  margin: 5px 0 5px 0;
 }
 .my-second-course-period, .my-first-course-period {
   font-style: normal;
@@ -102,13 +103,10 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
 }
 .my-second-course-divider, .my-first-course-divider {
   color: #000;
-}
-.my-second-course-knowledge, .my-first-course-knowledge {
-  padding: 0 0 0 18px;
 }
 .my-second-course-knowledge, .my-first-course-knowledge {
   font-style: normal;
@@ -116,6 +114,8 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  margin: 0 0 5px 10px;
+  padding: 0 0 0 0px;
 }
 
 /* My work experience */
@@ -127,7 +127,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 10px 0;
+  margin: 5px 0 5px 0;
 }
 .my-work-experience-period {
   font-style: normal;
@@ -135,13 +135,14 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
 }
 .my-work-experience-divider {
   color: #000;
 }
 .my-work-experience-duties {
   padding: 0 0 0 18px;
+  margin: 0 0 5px 0;
 }
 
 .my-work-experience-duty {
@@ -156,10 +157,10 @@ body {
 .my-university-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #fb6d3a;
-  margin-bottom: 10px;
+  margin: 5px 0 5px 0;
 }
 .my-university-degree {
   font-style: normal;
@@ -167,7 +168,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  margin-bottom: 10px;
+  margin: 0 0 3px 0;
 }
 .my-phd-period {
   font-style: normal;
@@ -175,6 +176,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+  margin: 0 0 5px 0;
 }
 .my-phd-period-divider {
   color: #000000;
@@ -185,7 +187,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  margin-bottom: 10px;
+  margin: 0 0;
 }
 .my-education-period {
   font-style: normal;
@@ -193,11 +195,10 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+  margin: 0 0;
 }
 .my-education-divider {
   color: #000000;
-}
-.my-education-section {
 }
 
 /* Sidebar-section */
